@@ -1,9 +1,6 @@
-local IsKavoInstance = _G.isKavo
-
-if game.CoreGui:FindFirstChild(IsKavoInstance) then
-    game.CoreGui[IsKavoInstance]:Destroy()
+if _G.isKavo then
+    game.CoreGui[_G.isKavo]:Destroy() 
 end
-
 
 local Kavo = {}
 
