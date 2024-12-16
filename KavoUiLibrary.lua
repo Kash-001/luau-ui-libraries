@@ -1,6 +1,6 @@
 if _G.isKavo then
     local KavoInstanceToDestroy = _G.isKavo
-    game.CoreGui[KavoInstanceToDestroy]Destroy()
+    game.CoreGui[KavoInstanceToDestroy]:Destroy()
 end
 
 local Kavo = {}
